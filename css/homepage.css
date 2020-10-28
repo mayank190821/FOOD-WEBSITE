@@ -1,0 +1,20 @@
+/* css reset */
+*{
+    margin: 0.3rem;
+    padding: 0.0001rem;
+}
+
+/* image */
+#logo img{
+    width: 3rem;
+    
+}
+
+/* css variable */
+:root{
+    --navbar-height:59px;
+}
+
+/* navigation bar*/
+
+
