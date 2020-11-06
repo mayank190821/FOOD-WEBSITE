@@ -1,0 +1,112 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body{
+    background: url('/utilities/contactus.webp') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* main container */
+.main-container{
+    width: 50vw;
+    height: 90vh;
+    margin: auto;
+    top: 0px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 50px 7px black;
+}
+/* heaading area */
+.heading{
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: teal;
+    background-position-x: 30px;
+
+    height:17vh;
+    color:white;
+    text-align: center;
+    border-radius: 1vw 1vw 0vw 0vw;
+    opacity: 0.85;
+}
+.heading h1{
+    padding: 6vh 0vh;
+}
+    
+.container-form{
+    /* border: 2px solid black; */
+    height: 73.4vh;
+    background-color: #ffffffe0;
+    border-radius: 0vw 0vw 0.6vw 0.6vw;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    padding: 4vh;
+}
+/* Field name */
+.sp{
+    width:70px;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: #2c7b7b;
+}
+/* massage box */
+#msg{
+    height: 15vh;
+    text-align: left;
+}
+/* input area */
+.text-box{
+    width: 40vh;
+    border-top-style: none;
+    border-bottom-left-radius: 10px;
+    border-right-style: none;
+    height: 4vh;
+    outline: none;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    border-color: #22d4d6
+}
+/* button */
+.btn-container{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 30vw;
+    justify-content: space-around;
+    
+}
+.btn-container .btn{
+    background-color:teal;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    font-size: 3vh;
+    color: white;
+    padding: 0rem 1rem;
+    font-family: 'Itim', cursive;
+    box-shadow: 0px 0px 11px 1px #142527;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:white;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    font-size: 3vh;
+    color: teal;
+    padding: 0rem 1rem;
+    font-family: 'Itim', cursive;
+    box-shadow: 0px 0px 11px 1px #142527;
+    cursor: pointer;
+}  
